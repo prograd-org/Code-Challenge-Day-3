@@ -6,9 +6,14 @@
 
 
 // Write the function to return the profit obtained.
-function find_Profit(x,a,b){
-
-    return null;
+function find_Profit(x, a, b) {
+    sp = a * x;
+    cp = x * b + 100
+    profit = sp - cp;
+    return profit;
 }
 
-//Use SpecRunner to check the Test Cases.
+//Use SpecRunner to check the Test Cases.33
+
+
+//x=n sp=a*x cp=x*b+100 other cost=100
