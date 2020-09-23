@@ -12,14 +12,14 @@
 
 // Write the function to retrun the number of students in each team.
 function find_No_of_Students(tot_no_of_students,tot_no_of_teams){
-
-    return null;
+    var no_of_students=tot_no_of_students/tot_no_of_teams;
+    return Math.floor(no_of_students);
 }
 
 // Write the function to retrun the left out student.
 function find_left_out(tot_no_of_students,tot_no_of_teams){
-
-    return null;
+    var no_of_students_left=tot_no_of_students%tot_no_of_teams;
+    return Math.floor(no_of_students_left);
 }
 
 //Use SpecRunner to check the Test Cases.
