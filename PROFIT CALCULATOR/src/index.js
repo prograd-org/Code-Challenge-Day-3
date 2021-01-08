@@ -7,8 +7,16 @@
 
 // Write the function to return the profit obtained.
 function find_Profit(x,a,b){
-
+          //total sold price to agency for "a" rupees
+          sold_price=x*a;
+          //original sold price "b" rupees
+          original_price=x*b;
+          //gain
+          gain=sold_price - original_price - 100;
+          return gain
+  
     return null;
 }
+find_Profit(100,10,5)
 
 //Use SpecRunner to check the Test Cases.
