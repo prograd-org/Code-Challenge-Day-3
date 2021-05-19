@@ -8,7 +8,7 @@
 // Write the function to return the profit obtained.
 function find_Profit(x,a,b){
 
-    return null;
+    return ((a-b)*x)-100;
 }
 
 //Use SpecRunner to check the Test Cases.
