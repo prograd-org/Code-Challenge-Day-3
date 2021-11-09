@@ -7,8 +7,11 @@
 
 // Write the function to return the profit obtained.
 function find_Profit(x,a,b){
-
-    return null;
+    
+    var c = x*a;
+    var d = x*b;
+    var value1=c-d;
+    return value1-100;    
 }
 
 //Use SpecRunner to check the Test Cases.
